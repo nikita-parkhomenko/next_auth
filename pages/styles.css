@@ -1,19 +1,31 @@
+html,
 body {
-  font-family: -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  padding: 0 1rem 1rem 1rem;
-  max-width: 680px;
-  margin: 0 auto;
-  background: #fff;
-  color: #333;
-}
-
-li,
-p {
-  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
-  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #cdeaff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.color_navbar {
+  background-color: #663399;
 }
 
 hr {
